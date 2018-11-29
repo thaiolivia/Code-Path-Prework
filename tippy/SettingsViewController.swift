@@ -10,6 +10,7 @@ import UIKit
 
 class SettingsViewController: UIViewController {
 
+    @IBOutlet weak var defaultTipValue: UITextField!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -20,6 +21,10 @@ class SettingsViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    //let defaults = UserDefaults.standard
+    //defaults.set("defaultTipValue", forKey: "defTip")
+    //defaults.synchronize()
     
 
     /*
